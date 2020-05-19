@@ -39,14 +39,11 @@
     color: black;
 }
 
-.top:hover,
-.top:focus {
-    fill: red;
-}
-
-.top:hover text,
-.top:focus text {
-    fill: red;
+.top:hover, .top:focus, .top:hover text, .top:focus text,
+.middle:hover, .middle:focus, .middle:hover text, .middle:focus text, 
+.bottom:hover, .bottom:focus, .bottom:hover text, .bottom:focus text
+{
+    fill: #04174d;
 }
 
 .middle {
@@ -59,16 +56,6 @@
     color: black;
 }
 
-.middle:hover,
-.middle:focus {
-    fill: red;
-}
-
-.middle:hover text,
-.middle:focus text {
-    fill: red;
-}
-
 .bottom {
     fill: grey; 
     height: 21px;
@@ -79,21 +66,15 @@
     color: black;
 }
 
-.bottom:hover,
-.bottom:focus {
-    fill: red;
-}
-
-.bottom:hover text,
-.bottom:focus text {
-    fill: red;
-}
+/* End of Chart */
 
 #statistics {
     text-align: center;
     border: 1px solid black;
-    width: 100%;
-    margin: 0 0 10px 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .aboutimg {
@@ -107,10 +88,9 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    align-items: center;
     display: block;
     margin-left: auto;
-    width: 30%;
+    width: 35%;
 }
 
 #layout {
@@ -120,12 +100,21 @@
     position: relative;
     display: block;
     margin-right: auto;
-    width: 30%;
+    width: 35%;
+}
+
+h4 {
+    position: relative;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
     .aboutus-image {
         height: 50vw;
+    }
+
+    #statistics {
+        width: 100%;
     }
 
     #text {

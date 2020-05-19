@@ -1,16 +1,16 @@
 form {
     margin: 0 auto;
-    height: 30vw;
     width: 30%;
     padding: 1em;
     border: 1px solid;
     border-color: black;
+    position: relative;
 }
 
 input {
     border: 1px solid;
     border-color: black;
-    width: 40%;
+    width: 50%;
     height: 20px;
     padding: 1px;
 }
@@ -27,11 +27,7 @@ textarea {
     background-color: #9bb1ee;
 }
 
-#fullname { 
-    text-transform: capitalize;
-}
-
-#city {
+#city, #fullname {
     text-transform: capitalize;
 }
 
@@ -70,7 +66,6 @@ h2 {
     }
 
     form {
-        height: 120vw;
         width: 80%;
     }
 
