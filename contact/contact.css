@@ -1,6 +1,7 @@
 form {
     margin: 0 auto;
-    width: 400px;
+    height: 30vw;
+    width: 30%;
     padding: 1em;
     border: 1px solid;
     border-color: black;
@@ -9,16 +10,21 @@ form {
 input {
     border: 1px solid;
     border-color: black;
+    width: 40%;
     height: 20px;
     padding: 1px;
 }
 
 textarea {
-    width: 400px;
-    height: 100px;
+    width: 90%;
+    height: 5vw;
     border: 1px solid;
     border-color: black;
     padding: 1px;
+}
+
+#submit:hover, #reset:hover {
+    background-color: #9bb1ee;
 }
 
 #fullname { 
@@ -61,6 +67,15 @@ h2 {
 @media screen and (max-width: 600px) {
     .contact-image {
         height: 50vw;
+    }
+
+    form {
+        height: 120vw;
+        width: 80%;
+    }
+
+    textarea {
+        height: 15vw;
     }
 
     footer {

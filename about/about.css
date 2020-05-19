@@ -17,11 +17,15 @@
 }
 
 #text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 20px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.aboutusText span {
+    background-color: black;
 }
 
 /* Chart */
@@ -89,7 +93,7 @@
     text-align: center;
     border: 1px solid black;
     width: 100%;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 
 .aboutimg {
@@ -103,8 +107,10 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 50%;
-    float: left;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    width: 30%;
 }
 
 #layout {
@@ -112,8 +118,9 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 50%;
-    float: left;
+    display: block;
+    margin-right: auto;
+    width: 30%;
 }
 
 @media screen and (max-width: 600px) {
@@ -122,7 +129,8 @@
     }
 
     #text {
-        font-size: 1.2rem !important;
+        font-size: 1.3rem !important;
+        width: 80%;
     }
 
     #building {
