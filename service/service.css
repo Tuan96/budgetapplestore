@@ -1,0 +1,65 @@
+.service-image {
+    background-image: url("../images/apple-accesories-banner.jpg");
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.service-text {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    padding: 20px 0 0 0;
+    width: 100%;
+    font-family: Arial;
+}
+
+.service-text span {
+    background-color: white;
+}
+
+h2, ul {
+     text-align: center;
+     list-style: none;
+}
+
+li {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.contactus {
+    text-indent: 40px;
+    margin: 0 0 20px 0;
+}
+
+.contactus a:link {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.contactus a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+.contactus a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.contactus a:active {
+    text-decoration: underline;
+    color: green;
+}
+
+@media screen and (max-width: 600px) {
+    .service-image {
+        height: 50vw;
+    }
+
+    footer {
+        position: relative !important;
+    }
+}

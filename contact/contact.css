@@ -1,0 +1,70 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid;
+    border-color: black;
+}
+
+input {
+    border: 1px solid;
+    border-color: black;
+    height: 20px;
+    padding: 1px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    border: 1px solid;
+    border-color: black;
+    padding: 1px;
+}
+
+#fullname { 
+    text-transform: capitalize;
+}
+
+#city {
+    text-transform: capitalize;
+}
+
+.contact-image {
+    background-image: url("../images/contact.jpg");
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    padding: 20px 0 0 0;
+    width: 100%;
+    font-family: Arial;
+}
+
+.contact-text span {
+    background-color: white;
+}
+
+h2 {
+     text-align: center;
+}
+
+.form {
+    margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-image {
+        height: 50vw;
+    }
+
+    footer {
+        position: relative !important;
+    }
+}
+

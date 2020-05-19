@@ -1,0 +1,139 @@
+
+.aboutus-image {
+    background-image: url("../images/dentons.jpg");
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutusText {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 20px 0 0 0;
+    width: 100%;
+    font-family: Arial;
+}
+
+#text {
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Chart */
+.top {
+    fill: green; 
+    height: 21px;
+    transition: fill .3s ease;
+    cursor: pointer;
+}
+.top text {
+    color: black;
+}
+
+.top:hover,
+.top:focus {
+    fill: red;
+}
+
+.top:hover text,
+.top:focus text {
+    fill: red;
+}
+
+.middle {
+    fill: orange; 
+    height: 21px;
+    transition: fill .3s ease;
+    cursor: pointer;
+}
+.middle text {
+    color: black;
+}
+
+.middle:hover,
+.middle:focus {
+    fill: red;
+}
+
+.middle:hover text,
+.middle:focus text {
+    fill: red;
+}
+
+.bottom {
+    fill: grey; 
+    height: 21px;
+    transition: fill .3s ease;
+    cursor: pointer;
+}
+.bottom text {
+    color: black;
+}
+
+.bottom:hover,
+.bottom:focus {
+    fill: red;
+}
+
+.bottom:hover text,
+.bottom:focus text {
+    fill: red;
+}
+
+#statistics {
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.aboutimg {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+#building {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#layout {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutus-image {
+        height: 50vw;
+    }
+
+    #text {
+        font-size: 1.2rem !important;
+    }
+
+    #building {
+        width: 100%;
+    }
+
+    #layout {
+        width: 100%;
+    }
+
+    footer {
+        position: relative !important;
+    }
+}

@@ -1,0 +1,53 @@
+.products {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    align-items: baseline;
+}
+
+.item {
+    flex: 21%;
+    text-align: center;
+    margin: 30px;
+}
+
+.item:hover {
+    transform: scale(1.2);
+}
+
+.product-image {
+    background-image: url("../images/bannerapple.jpg");
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.product-text {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 20px 0 0 0;
+    width: 100%;
+    font-family: Arial;
+}
+
+.product-text span {
+    background-color: black;
+ }
+
+h2 {
+     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .product-image {
+        height: 50vw;
+    }
+
+    footer {
+        position: relative !important;
+    }
+}
