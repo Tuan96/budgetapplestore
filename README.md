@@ -2,7 +2,8 @@
 It's a budget Apple Store. 
 Main pages: Products, Services, About, and Contact Us. 
 <br>
-I'm in the process of implementing the responsive design of the website.
+I'm in the process of implementing the responsive design of the website. <br>
+Live version: https://tuan96.github.io/phonetify/index.html
 
 ## Built With
 
