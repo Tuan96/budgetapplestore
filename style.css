@@ -8,8 +8,6 @@ body {
     min-height: 100vh;
 }
 
-
-
 #logo {
     font-weight: bold;
 }
@@ -84,7 +82,7 @@ footer {
     position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .topnav a {
         float: none;
         width: 100%;
@@ -96,7 +94,6 @@ footer {
     }
 
     footer {
-        position: absolute !important;
         padding: 20px 0 30px;
     }
 
