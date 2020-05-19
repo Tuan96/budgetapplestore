@@ -2,6 +2,9 @@
 It's a budget Apple Store. 
 Main pages: Products, Services, About, and Contact Us. 
 
+<br><br>
+I'm in the process of implementing the responsive design of the website.
+
 ## Built With
 
 HTML5, CSS3, and JavaScript. 
