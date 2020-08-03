@@ -19,5 +19,5 @@ All images belong to their respective authors.
 
 ## Thoughts
 
-I built this website in Fall 2019 to learn more about HTML5 and CSS3. <br/> Figuring out CSS styles was the best take-away I got from this project.
+I built this website in Fall 2019 to learn more about HTML5 and CSS3. <br/> Figuring out how to use some of the more common CSS styles was the best take-away I got from this project.
  
