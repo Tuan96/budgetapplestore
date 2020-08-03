@@ -5,7 +5,6 @@
     background-size: cover;
     position: relative;
 }
-
 .service-text {
     text-align: center;
     color: black;
@@ -14,29 +13,24 @@
     width: 100%;
     font-family: Arial;
 }
-
 .service-text span {
     background-color: white;
 }
-
 h2 {
     text-align: center;
     display: flex;
     justify-content: center;
 }
-
 ul {
     text-align: center;
     margin: 0;
     padding: 0;
-    }
-
+}
 li {
     font-size: 1.5rem;
     padding: 10px 0 0 0;
     list-style: none;
 }
-
 .contactus {
     text-indent: 40px;
     margin: 0 0 20px 0;
@@ -46,31 +40,25 @@ li {
     text-decoration: none;
     color: lightblue;
 }
-
 .contactus a:visited {
     text-decoration: none;
     color: blue;
 }
-
 .contactus a:hover {
     text-decoration: underline;
     color: orange;
 }
-
 .contactus a:active {
     text-decoration: underline;
     color: green;
 }
-
 img {
     padding: 0 0 20px 0 ;
 }
-
 @media screen and (max-width: 600px) {
     .service-image {
         height: 50vw;
     }
-
     footer {
         position: relative !important;
     }

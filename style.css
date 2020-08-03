@@ -1,28 +1,25 @@
 /* General */
 body {
+    margin: 0;
+    padding: 0;
     font-family: Helvetica, sans-serif;
 }
-
 #page-container {
     position: relative;
     min-height: 100vh;
 }
-
 #logo {
     font-weight: bold;
 }
-
 header {
     background: #000000;
     color: white;
     width: 100%;
     display: inline-block;
 }
-
 .topnav {
     overflow: hidden;
 }
-
 .topnav a {
     float: left;
     display: block;
@@ -31,12 +28,10 @@ header {
     padding: 12px;
     text-decoration: none;
 }
-
 .topnav a:hover {
     background-color: #7b7b7b;
     color: #e6e6e6 ;
 }
-
 /* Home Page */
 .intro-image {
     background-image: url("./images/intro-image.jpg");
@@ -45,30 +40,22 @@ header {
     background-size: cover;
     position: relative;
 }
-
 .intro-text {
     text-align: center;
     color: white;
     font-size: 3rem;
     padding: 20px 0 0 0;
-    width: 99%;
     font-family: Arial;
 }
-
 .intro-text p {
     font-size: 1.8rem;
     padding: 20px;
     margin-top: -40px;
 }
-
 .intro-text span {
     background-color: black;
 }
-
-h3 { 
-    color: black;
-}
-
+/* Footer */
 footer {
     background: #000000;
     color: white;
@@ -80,23 +67,20 @@ footer {
     clear: both;
     bottom: 0;
     position: relative;
+    overflow-wrap: break-word;
 }
-
 @media screen and (max-width: 800px) {
     .topnav a {
         float: none;
         width: 100%;
         padding: 12px 0;
     }
-
     .intro-text {
         font-size: 2rem;
     }
-
     footer {
         padding: 20px 0 30px;
     }
-
     .intro-image {
         height: 200vw !important;
     }

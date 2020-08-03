@@ -7,7 +7,6 @@
     <script src="../phonetify.js"></script>
     <title>PHONETIFY</title>
 </head>
-
 <body>
     <header>
         <div class="topnav" id="myTopnav">
@@ -24,33 +23,31 @@
                 <h2><span>Contact Us</span></h2>
             </div>
         </div>
-
         <h2>Leave us a message here: </h2><br>
-        
         <div class="form">
             <form onsubmit="return submitForm(event)">
             <label for="fullname">Full Name:</label><br>
-            <input id="fullname" type="text" name="fullname" placeholder="E.g: John Doe" required>
+            <input id="fullname" type="text" name="fullname" placeholder="E.g: John Doe" maxlength="30" required>
             <br><br>
 
             <label for="email">Email:</label><br>
-            <input id="email" type="email" name="email" placeholder="johndoe@gmail.com" required>
+            <input id="email" type="email" name="email" placeholder="johndoe@gmail.com" maxlength="30" required>
             <br><br>
 
             <label for="zip">Zip Code:</label><br>
-            <input id="zip" type="text" pattern="[0-9]{5}" name="zip" placeholder="88888" required>
+            <input id="zip" type="text" pattern="[0-9]{5}" name="zip" placeholder="88888" maxlength="5" required>
             <br><br>
 
             <label for="city">City:</label><br>
-            <input id="city" type="text" name="city" placeholder="Boston" required>
+            <input id="city" type="text" name="city" placeholder="San Francisco" maxlength="30" required>
             <br><br>
 
             <label for="date">Date of purchase:</label><br>
-            <input id="date" type="date" name="date" value="2020-01-01" min="2018-01-01" max="2020-12-31" required>
+            <input id="date" type="date" name="date" value="2020-01-01" min="2018-01-01" max="2022-12-31" required>
             <br><br>
 
             <label for="message">Message:</label><br>
-            <textarea id="message" type="text" name="message" placeholder="Your message here" required></textarea>
+            <textarea id="message" type="text" name="message" placeholder="Your message here" maxlength="300" required></textarea>
             <br><br>
 
             <input id="submit" type="submit" value="Submit" >
@@ -59,10 +56,8 @@
             </form>
         </div>
     </section>
-
     <footer>
         Copyright © 2020 Tuan Nguyen. All rights reserved.
     </footer>
 </body>
-
 </html>
